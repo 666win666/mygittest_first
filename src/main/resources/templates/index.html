@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>民宿旅游网</title>
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery-3.3.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+    <!--导入布局js，共享header和footer-->
+    <script type="text/javascript" src="/js/include.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!--引入头部-->
+    <div id="header"></div>
+    <!-- banner start-->
+    <section id="banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="route_detail">
+                    <img  href="route_detail" src="/images/banner_1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="route_detail">
+                    <img  href="route_detail" src="/images/banner_2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="route_detail">
+                    <img  href="route_detail" src="/images/banner_3.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+        </div>
+    </section>
+    <!-- banner end-->
+    <!-- 旅游 start-->
+    <section id="content">
+         <!-- 精选start-->
+        <section class="hemai_jx">
+            <div class="jx_top">
+                <div class="jx_tit">
+                    <img src="/images/icon_5.jpg" alt="">
+                    <span>精选</span>
+                </div>
+                <!-- Nav tabs -->
+                <ul class="jx_tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <span></span>
+                        <a href="#popularity" aria-controls="popularity" role="tab" data-toggle="tab">人气旅游</a>
+                    </li>
+                    <li role="presentation">
+                        <span></span>
+                        <a href="#newest" aria-controls="newest" role="tab" data-toggle="tab">最新旅游</a>
+                    </li>
+                    <li role="presentation">
+                        <span></span>
+                        <a href="#theme" aria-controls="theme" role="tab" data-toggle="tab">主题旅游</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="jx_content">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="popularity">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/img_1.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>亲近大自然，体验原生态，住悦兮树屋，泡悦兮温泉</h3>
+                                        <div class="price">网付价<em>￥</em><strong>99</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/img_2.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>春日赏樱，看遍满山花海，探秘百年古村落的恬静美~ </h3>
+                                        <div class="price">网付价<em>￥</em><strong>50</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/img_3.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>有趣诱人的民俗风情活动，让人耳目一新、流连忘返。</h3>
+                                        <div class="price">网付价<em>￥</em><strong>59</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/img_4.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>秦岭风光，诗画留坝，风情民宿，美不胜收，风光无限。</h3>
+                                        <div class="price">网付价<em>￥</em><strong>180</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="newest">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/img_4.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>春日赏樱，看遍满山花海，探秘百年古村落的恬静美~</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/jiangxuan_1.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>秦岭风光，诗画留坝，风情民宿，美不胜收，风光无限。</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/img_3.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>四川民宿5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/img_15.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>田园花海，山野云雾，野奢山居，心旷神怡</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="theme">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/jiangxuan_2.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>西安直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/img_2.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>游山玩水，就来上坝河，水上乐园，流连忘返。</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/img_16.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>千岛风情，动物表演，山水美景，尽情玩乐</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="route_detail">
+                                    <img src="/images/img_8.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>网红目的地，极限挑战，亲子游玩，乐不自胜</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 民宿精选end-->
+        <!-- 国内游 start-->
+        <section class="hemai_jx">
+            <div class="jx_top">
+                <div class="jx_tit">
+                    <img src="/images/icon_6.jpg" alt="">
+                    <span>民宿</span>
+                </div>
+            </div>
+            <div class="heima_gn">
+                <div class="guonei_l">
+                    <a href="route_detail">
+                    <img  src="/images/guonei_1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="guone_r">
+                    <div class="row">
+
+
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_5.jpg" alt="">
+								<div class="has_border">
+									<h3>千亩茶园，漫天樱花木兰花盛开，神清气爽</h3>
+									<div class="price">网付价<em>￥</em><strong>239</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_6.jpg" alt="">
+								<div class="has_border">
+									<h3>千岛风情，动物表演，山水美景，尽情玩乐</h3>
+									<div class="price">网付价<em>￥</em><strong>99</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_7.jpg" alt="">
+								<div class="has_border">
+									<h3>休闲度假，海洋漂浮，盐药养生，身心健康</h3>
+									<div class="price">网付价<em>￥</em><strong>88</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_8.jpg" alt="">
+								<div class="has_border">
+									<h3>壁山青龙湖，卧龙山庄，烧烤踏青季</h3>
+									<div class="price">网付价<em>￥</em><strong>29</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_9.jpg" alt="">
+								<div class="has_border">
+									<h3>环境优美，空气清新，旅游最好去处。</h3>
+									<div class="price">网付价<em>￥</em><strong>88</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_10.jpg" alt="">
+								<div class="has_border">
+									<h3>网红目的地，极限挑战，亲子游玩，乐不自胜</h3>
+									<div class="price">网付价<em>￥</em><strong>88</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 国内游 end-->
+        <!-- 境外游 start-->
+        <section class="hemai_jx">
+            <div class="jx_top">
+                <div class="jx_tit">
+                    <img src="/images/icon_7.jpg" alt="">
+                    <span>自驾游</span>
+                </div>
+            </div>
+            <div class="heima_gn">
+                <div class="guonei_l"  >
+                    <a href="route_detail">
+                    <img src="/images/jiangwai_1.jpg" alt="">
+                    </a>>
+                </div>
+                <div class="guone_r">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_11.jpg" alt="">
+								<div class="has_border">
+									<h3>游山玩水，就来上坝河                </h3>
+									<div class="price">网付价<em>￥</em><strong>66</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_12.jpg" alt="">
+								<div class="has_border">
+									<h3>终南印象，云林小屋                  </h3>
+									<div class="price">网付价<em>￥</em><strong>46</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_13.jpg" alt="">
+								<div class="has_border">
+									<h3>轻奢民宿，别致体验，天然氧吧          </h3>
+									<div class="price">网付价<em>￥</em><strong>229</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_14.jpg" alt="">
+								<div class="has_border">
+									<h3>田园花海，山野云雾，野奢山居。            </h3>
+									<div class="price">网付价<em>￥</em><strong>109</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail">
+									<img src="/images/img_15.jpg" alt="">
+								<div class="has_border">
+									<h3>小资情调，梦幻田园，生态采摘               </h3>
+									<div class="price">网付价<em>￥</em><strong>199</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail">
+								<img src="/images/img_16.jpg" alt="">
+								<div class="has_border">
+									<h3>最美环山公路自驾游，休闲民宿                 </h3>
+									<div class="price">网付价<em>￥</em><strong>200</strong><em>起</em></div>
+								</div>
+							</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 境外游 end-->
+    </section>
+    <!-- 旅游 end-->
+   <!--导入底部-->
+    <div id="footer"></div>
+
+</body>
+</html>
