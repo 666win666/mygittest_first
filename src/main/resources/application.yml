@@ -1,0 +1,29 @@
+server:
+  port: 8080
+# 指定数据库的链接信息
+spring:
+  datasource:
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+#    username: root
+#    password: root
+    url: jdbc:h2:~/test
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 123456
+    initialization-mode: always
+    platform: h2
+    data: classpath:db/data.sql
+    schema: classpath:db/schema.sql
+  jpa:   # jpa的配置
+    generate-ddl: true
+    database: h2
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
+  thymeleaf:
+    prefix: classpath:/templates/
